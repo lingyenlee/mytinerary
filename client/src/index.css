@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ---------------------Header------------------------- */
+
+.HeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.material-icons.md-80 {
+  font-size: 80px;
+}
+
+/* ---------------------------Footer----------------------- */
+
+.FooterWrapper img {
+  width: 20%;
+  height: 20%;
+}
+
+/* -------------------------Slideshow------------------------- */
+.slide-container {
+  width: 70%;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.each-slide>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+/* ----------------Cities page------------------------ */
+.searchBar {
+  text-align: center;
+  width: 50%;
+  background-color: white;
+  margin: 10px auto;
+  height: 45px;
+  line-height: 45px;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+i.material-icons.search {
+  background: lightskyblue;
+  width: 15%;
+}
+
+input.searchInput {
+  width: 40%;
+  border: solid lightgray 1px;
+}
+
+
+.city {
+  text-align: center;
+  height: 45px;
+  margin: 10px 50px;
+  background-color: linen;
+}
+
+.city h5 {
+  line-height: 45px;
+}
+
+.cityHeading {
+  text-align: center;
+}
+
+i.material-icons.search {
+  height: 49px;
+  line-height: 49px;
+}
